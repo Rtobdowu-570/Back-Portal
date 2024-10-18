@@ -1,0 +1,123 @@
+/* Ls corps 
+    Github : https://github.com/Rtobdowu-570
+    Telegram : https://t.me/ls_pain
+    Email : gcah4451@gmail.com
+    Copyright (c) 2024
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    background-image: url('../images/back.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+    
+.container{
+    width: 420px;
+    background-color: #a21caf;
+    box-shadow:  10px rgba(0, 0, 0, .5);
+   background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    padding: 30px 40px;
+   overflow: hidden;
+}
+.container h2{
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-family: 'Crimson Pro', serif;
+}
+
+.user{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+   
+}
+
+.user input{
+    width: 100%;
+    height: 90%;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    font-size: 16px;
+    color: #333333;
+    font-family: 'Crimson Pro', serif;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+
+.user input:hover{
+    border: 2px solid #4f518c;
+}
+
+.user input:focus{
+    color: #ffb6c1;
+}
+
+.user label{
+    position: relative;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    color: #d3d3d3;
+}
+
+.user i{
+    position: absolute;
+    right: 20px;
+    top: 90%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    color: #fff;
+}
+
+.btn{
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    background-color: #4f518c;
+    color: #fff;
+    font-family: 'Crimson Pro', serif;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+
+.login{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+    color: #fff;
+}
+
+.login a{
+    text-decoration: none;
+    color: #4f518c;
+    font-weight: 600;
+}
+
+.login a:hover{
+    text-decoration: underline;
+}
+

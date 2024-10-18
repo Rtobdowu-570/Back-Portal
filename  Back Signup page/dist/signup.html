@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up Page</title>
+    <link rel="stylesheet" href="./Css/signup.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Sign-up</h2>
+        <form action="process.php" target="_blank" method="post">
+            <div class="user">
+                <label for ="name">Name</label>
+                <i class='bx bx-user'></i>
+                <input type="text" name="name" placeholder="Your Name" required>
+            </div>
+
+            <div class="user">
+                <label for ="email">Email</label>
+                <i class='bx bx-envelope'></i>
+                <input type="email" name="email" placeholder="name@mail.com" required>
+            </div>
+
+            <div class="user">      
+                <label for ="password">Password</label>
+                <i class='bx bx-lock-alt'></i>
+                <input type="password" name="password" placeholder="••••••••••"  minlength="6"   required>
+            </div>
+
+            <div class="user">
+                <label for ="password">Confirm Password</label>
+                <i class='bx bx-lock-alt'></i>
+                <input type="password" name="password" placeholder="••••••••••" required>
+            </div>
+
+            <button class="btn" type="submit">Sign-up</button>
+
+            <div class="login">
+                <p>Already have an account? <a href="/Back login page/login.html">Login</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
